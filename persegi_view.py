@@ -1,11 +1,11 @@
-from persegi import persegi
-from persegi_controller import persegi_controller
+from persegi import Persegi
+from persegi_controller import PersegiController
 
 
-class persegiview:
+class PersegiView:
 
-    def show_luas(self, persegi: persegi, persegi_controller: persegicontroller)
+    def show_luas(self, persegi: Persegi, persegi_controller: PersegiController):
         print (persegi_controller.hitung_luas(persegi))
 
-    def show_keliling(self, persegi: persegi, persegi_controller:persegicontroller)
+    def show_keliling(self, persegi: Persegi, persegi_controller: PersegiController):
         print (persegi_controller.hitung_keliling(persegi))

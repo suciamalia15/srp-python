@@ -6,5 +6,5 @@ class Persegi:
     def set_sisi(self, sisi: float)-> None:
         self.__sisi = sisi
         
-    def getsisi(self)-> float:
+    def get_sisi(self)-> float:
         return self.__sisi
